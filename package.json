@@ -1,0 +1,26 @@
+{
+  "name": "html-and-css",
+  "version": "1.0.0",
+  "description": "Learning HTML and CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obiora10-Git/HTML---CSS.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "HTML",
+    "and",
+    "CSS"
+  ],
+  "author": "Obiora Okwara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Obiora10-Git/HTML---CSS/issues"
+  },
+  "homepage": "https://github.com/Obiora10-Git/HTML---CSS#readme"
+}
