@@ -41,6 +41,7 @@ li a:hover,
 li a:focus {
     font-size: 1.8rem;
     color: #fff;
+    background-color: #333;
     
 
 }
