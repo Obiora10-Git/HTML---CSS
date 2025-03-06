@@ -27,6 +27,7 @@ li {
     display: inline-block;
     margin-inline: 0.25rem;
     padding: 0.5rem;
+    height: inherit;
     
     
 
@@ -42,6 +43,9 @@ li a:focus {
     font-size: 1.8rem;
     color: #fff;
     background-color: #333;
+    display: block;
+    padding: 2px;
+    
     
 
 }
