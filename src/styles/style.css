@@ -11,14 +11,15 @@ body {
     font-family: "Roboto", sans-serif;
     height: 100vh;
     background-color: aliceblue;
-    display: flex;
+  
+    /*  display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
     
 
-.large {
+/* .large {
     
     align-items: center;
     justify-items: center;
@@ -100,4 +101,93 @@ hr {
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
+} */
+
+
+
+.large {
+    align-items: center;
+    justify-items: center;
+    min-height: 900px;
+    min-width: 650px;
+    
+    height: 60%;
+    background-color: #fff;
+    
+    margin: auto;
+    align-items: center;
+}
+
+.image-box {
+    height: 400px;
+    width: 650px;
+    
+    background-color: blanchedalmond;
+    background-image: url(/assets/img/vertical-low-angle-shot-skyscrapers-bright-sky-new-york-city-united-states.jpg);
+    background-size: cover;
+}
+
+.small {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    max-width: 500px;
+    max-height: 450px;
+    background-color: #fff;
+    top: -5%;
+    
+
+    
+    
+    text-align: justify;
+    text-decoration: #2f2e2e48 ;
+    justify-content: center ;
+    align-content: center;
+    flex-direction: column;
+    line-height: 2rem;
+    padding: 50px;
+    margin-bottom: 0;
+    margin-inline: auto;
+
+}
+
+hr {
+    height: 4px;
+    display: block;
+    background-color: #0a0a0a70;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+h3 {
+    margin-top: 70px;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+button {
+    display: block;
+    z-index: 1;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 2px #0a0a0a70;
+    text-align:center;
+    margin: 30px auto;
+    width: 200px;
+    
+    
+    
+    position: relative;
+    
 }
