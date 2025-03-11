@@ -6,6 +6,17 @@
     box-sizing: border-box;
 }
 
+/* @media only screen and (max-width: 650px) {
+    body {
+        
+        display: flex;
+        align-items: center;
+        justify-items: flex-start;
+        
+        
+    } */
+  
+
 body {
     
     font-family: "Roboto", sans-serif;
@@ -125,6 +136,7 @@ hr {
     height: 400px;
     width: 650px;
     
+    background-position: center;
     background-color: blanchedalmond;
     background-image: url(/assets/img/vertical-low-angle-shot-skyscrapers-bright-sky-new-york-city-united-states.jpg);
     background-size: cover;
